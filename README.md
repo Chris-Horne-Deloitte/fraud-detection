@@ -103,4 +103,4 @@ For any questions or suggestions, please contact:
 
 - Name: Chris Horne
 - Email: chrhorne@Chris-Horne-Deloitte
-- GitHub: [yourusername](https://github.com/chris-horne-deloitte)
+- GitHub: [Chris-Horne-Deloitte](https://github.com/chris-horne-deloitte)
