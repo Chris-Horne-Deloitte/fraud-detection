@@ -1,9 +1,3 @@
-Chris Horne
-/ask @README.md: Entire File
-
-Rewrite this document so that we use AWS and postgresql; we don't need python.
-
-Codiumate
 # Fraud Detection Data Pipeline
 
 ## Description
