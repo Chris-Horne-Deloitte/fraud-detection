@@ -1,3 +1,9 @@
+Chris Horne
+/ask @README.md: Entire File
+
+Rewrite this document so that we use AWS and postgresql; we don't need python.
+
+Codiumate
 # Fraud Detection Data Pipeline
 
 ## Description
@@ -16,7 +22,6 @@ This project aims to develop a data pipeline for detecting fraudulent financial 
 
 ### Prerequisites
 
-- Python 3.8 or higher
 - PostgreSQL
 - AWS account
 
@@ -29,25 +34,12 @@ This project aims to develop a data pipeline for detecting fraudulent financial 
     cd fraud-detection-pipeline
     ```
 
-2. **Set up a virtual environment:**
-
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
-
-3. **Install the required packages:**
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. **Set up PostgreSQL:**
+2. **Set up PostgreSQL:**
     - Install PostgreSQL from [here](https://www.postgresql.org/download/).
     - Create a new database and user for the project.
     - Update the database configuration in `config/database.yml`.
 
-5. **Configure AWS:**
+3. **Configure AWS:**
     - Set up your AWS credentials.
     - Configure your AWS services (S3, EC2, etc.) as needed.
     - Update the AWS configuration in `config/aws.yml`.
@@ -62,25 +54,13 @@ This project aims to develop a data pipeline for detecting fraudulent financial 
 
 - Preprocess and transform the data using the scripts provided in the `preprocessing` directory.
 
-    ```bash
-    python preprocessing/preprocess_data.py
-    ```
-
 ### Model Training
 
 - Train the machine learning models using the scripts provided in the `models` directory.
 
-    ```bash
-    python models/train_model.py
-    ```
-
 ### Fraud Detection
 
 - Apply the trained models to detect fraudulent transactions.
-
-    ```bash
-    python detection/detect_fraud.py
-    ```
 
 ## Contributing
 
@@ -104,3 +84,12 @@ For any questions or suggestions, please contact:
 - Name: Chris Horne
 - Email: chrhorne@Chris-Horne-Deloitte
 - GitHub: [Chris-Horne-Deloitte](https://github.com/chris-horne-deloitte)
+Copy
+Insert
+
+README.md
+[9/13/2024, 7:23:05 AM]
+
+
+README.md
+Entire File
